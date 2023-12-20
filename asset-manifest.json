@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/roomofpublish/static/css/main.a1b58914.css",
+    "main.js": "/roomofpublish/static/js/main.731d126e.js",
+    "static/media/sample.wav": "/roomofpublish/static/media/sample.1024854e40ada450e045.wav",
+    "static/media/KingSejongInstitute-Bold.ttf": "/roomofpublish/static/media/KingSejongInstitute-Bold.4c069e57c40612f630af.ttf",
+    "static/media/SF-Pro-Display-Semibold.otf": "/roomofpublish/static/media/SF-Pro-Display-Semibold.14bccd365ef62bd4c35d.otf",
+    "static/media/SF-Pro-Text-Bold.otf": "/roomofpublish/static/media/SF-Pro-Text-Bold.3dbeded354b72bcd7024.otf",
+    "static/media/SF-Pro-Text-Regular.otf": "/roomofpublish/static/media/SF-Pro-Text-Regular.c689d39717f1895e782f.otf",
+    "static/media/thumbnail.png": "/roomofpublish/static/media/thumbnail.15b55a165331cd21edef.png",
+    "static/media/bg_image.jpg": "/roomofpublish/static/media/bg_image.0e2dc836ca73b26a7a60.jpg",
+    "static/media/Rectangle_5.png": "/roomofpublish/static/media/Rectangle_5.7835e724aa960721bc1f.png",
+    "static/media/Spinner.gif": "/roomofpublish/static/media/Spinner.43cbcbecbdc49934b3af.gif",
+    "static/media/user-circle.svg": "/roomofpublish/static/media/user-circle.23ea1233d7e2cebec0a11d8a88b2da1a.svg",
+    "index.html": "/roomofpublish/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.a1b58914.css",
+    "static/js/main.731d126e.js"
+  ]
+}
