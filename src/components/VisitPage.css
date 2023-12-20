@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Sejong"; /* 사용할 폰트 패밀리 이름 */
+  src: url("./KingSejongInstitute-Bold.ttf") format("truetype"); /* 폰트 파일의 경로와 형식 지정 */
+  /* 추가로 폰트의 여러 형식들을 지원하는 것이 좋습니다. */
+}
+
+.container-name {
+  width: 800px;
+  height: 450px;
+  font-size: 15px;
+  text-align: center;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  font-family: "Sejong", sans-serif;
+}
+.container-name::-webkit-scrollbar {
+  width: 10px;
+}
+.container-name::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.container-name::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
+
+.title-h3 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.visitcomponent-container {
+  display: grid;
+  place-items: center;
+}
+
+textarea {
+  font-size: 5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form-wrapper {
+  margin-bottom: 20px;
+  background: transparent;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  /* background-color: rgb(45, 55, 72); */
+  width: 480px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+.my-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.contents-span {
+  color: white;
+}
+
+.save-button {
+  margin-left: 355px;
+  width: 60px;
+  height: 20px;
+  font-size: 8px;
+  margin-top: 8px;
+}
+
+.writer-span {
+  padding-top: 5px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contents-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visit-input {
+  /* background-color: rgb(53, 63, 79); */
+  background: transparent;
+  outline: 1px solid black;
+  border: none;
+  color: white;
+  font-size: 9px;
+  border-radius: 5px;
+}
+
+.name-input {
+  padding-left: 7px;
+  height: 20px;
+}
+
+.text-area {
+  padding: 3px 7px;
+}

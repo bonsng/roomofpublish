@@ -1,0 +1,108 @@
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../../public/imgs/bg_image.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* .bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    135deg,
+    #f9f9f9 48%,
+    #ebebeb 48%,
+    #ebebeb 78%,
+    #f9f9f9 78%
+  );
+} */
+
+.frame {
+  height: 299px;
+  width: 623px;
+}
+
+.frame .overlap_group {
+  background-image: url(https://c.animaapp.com/5GSItYbF/img/mask-group.png);
+  background-size: 100% 100%;
+  height: 299px;
+  position: relative;
+  width: 100%;
+}
+
+.frame .text_wrapper {
+  color: #ffffff;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 20px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0.5;
+  position: absolute;
+  top: 35px;
+  white-space: nowrap;
+}
+
+.frame .div {
+  color: #ffffff;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-size: 34px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 45.9px;
+  text-align: left;
+  position: absolute;
+  top: 154px;
+  width: 204px;
+}
+
+.frame .vector {
+  height: 14px;
+  left: 40px;
+  position: absolute;
+  top: 262px;
+  width: 43px;
+}
+
+.button1 {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+.title1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.text_group {
+  margin-left: 200px;
+}

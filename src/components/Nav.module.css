@@ -1,0 +1,55 @@
+.nav {
+  position: relative;
+  z-index: 1;
+  padding: 15px 0;
+  background-color: transparent;
+  box-shadow: var(--box-shadow);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0 300px;
+}
+
+ul.menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.menu > li {
+  margin-right: 30px;
+  font-family: "Sf Text Regular", sans-serif;
+}
+
+ul.menu a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+p a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.menu a:hover,
+ul.menu a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  font-family: "Sf Pro Display", sans-serif;
+  text-decoration: none;
+}
+
+.loginIdStyle {
+  color: white;
+}

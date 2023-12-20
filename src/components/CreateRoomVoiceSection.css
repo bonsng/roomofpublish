@@ -1,0 +1,39 @@
+.voice-input-container {
+  width: 1000px;
+  height: 500px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.voice-h3 {
+  color: white;
+  font-size: 23px;
+}
+
+.voice-p {
+  color: white;
+  font-size: 18px;
+}
+
+.files-contain {
+  border: 1px solid black;
+  width: 800px;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  padding: 15px 30px;
+}
+
+.voice-li {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.803);
+  font-size: 18px;
+}
+
+.li-div {
+  display: flex;
+  justify-content: space-between;
+}

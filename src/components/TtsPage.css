@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Sejong"; /* 사용할 폰트 패밀리 이름 */
+  src: url("./KingSejongInstitute-Bold.ttf") format("truetype"); /* 폰트 파일의 경로와 형식 지정 */
+  /* 추가로 폰트의 여러 형식들을 지원하는 것이 좋습니다. */
+}
+
+.tts-container {
+  /* border: 3px solid black; */
+  border-radius: 10px;
+  width: 820px;
+  height: 470px;
+  display: flex;
+  font-family: "Sejong", sans-serif;
+  color: rgb(227, 227, 227);
+  padding: 10px;
+}
+
+.multiple-container {
+  padding: 5px 10px;
+  /* border: 1px solid black; */
+  width: 600px;
+}
+.title-heading {
+  /* border: 1px solid black; */
+  height: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.tts-textarea {
+  /* border: 1px solid black; */
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.ttstextarea {
+  font-size: 12px;
+  padding: 10px 10px;
+  color: white;
+  font-family: "Sejong", sans-serif;
+  border-radius: 10px;
+  background-color: #a09185;
+  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+}
+
+.ttstextarea:focus {
+  outline-color: #92867d;
+  background-color: #82766c;
+}
+
+.create-voice-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+}
+
+.audio-container {
+  /* border: 1px solid black; */
+  width: 200px;
+  max-height: 450px;
+  overflow-y: scroll;
+  display: flow;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.audio-player {
+  height: 90px;
+}
+.audioplayer {
+  height: 80px;
+}
+
+.voice-textfield {
+  border-radius: 10px;
+  min-height: 250px;
+  padding: 10px 10px;
+  overflow-y: auto;
+  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+  background-color: #a09185;
+}
+
+.add-voice-button {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-detail {
+  font-size: 12px;
+  margin: 0 0;
+}
+.rhap_container {
+  background-color: #a09185 !important; /* 원하는 배경색으로 설정 */
+  box-shadow: 0px 0px 50px rgb(0, 0, 0) !important;
+  border-radius: 10px !important;
+  color: red !important;
+}
+
+.tts-loading {
+  border-radius: 10px;
+  background-color: #a09185;
+  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+  height: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}

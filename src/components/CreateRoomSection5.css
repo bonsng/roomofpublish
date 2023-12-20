@@ -1,0 +1,33 @@
+.info {
+  color: rgba(255, 255, 255, 0.827);
+}
+
+.detail-list {
+  padding: 0;
+}
+
+.detail-list li {
+  margin-bottom: 20px;
+}
+
+.list-container {
+  border: 2px solid black;
+  width: 500px;
+  padding-left: 50px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.detail-list {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.894);
+}
+
+.checkbox {
+  margin-bottom: 20px;
+}
+
+.backbutton {
+  margin-right: 10px;
+}

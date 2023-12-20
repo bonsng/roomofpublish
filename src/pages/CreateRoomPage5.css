@@ -1,0 +1,11 @@
+.bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../../public/imgs/bg_image.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}

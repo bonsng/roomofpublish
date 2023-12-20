@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Sf Pro Display";
+  src: url("../../public/fonts/SF-Pro-Display-Semibold.otf") format("otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sf Text Regular";
+  src: url("../../public/fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sf Text Bold";
+  src: url("../../public/fonts/SF-Pro-Text-Bold.otf") format("otf");
+  font-style: normal;
+}

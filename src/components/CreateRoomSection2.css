@@ -1,0 +1,110 @@
+.section-box2 {
+  position: relative;
+  width: 1300px;
+  height: 700px;
+  background-image: url("./Rectangle_5.png");
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+.header-text {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 40px;
+  width: 300px;
+}
+.header-number {
+  width: 900px;
+  padding-left: 90px;
+}
+.pageNumber-box {
+  margin-top: 10px;
+  width: 419px;
+  height: 89px;
+}
+
+.form-value2 {
+  position: relative;
+  width: 1200px;
+  height: 650px;
+  background: transparent;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box2 {
+  width: 1200px;
+  height: 530px;
+}
+
+.signupBtn {
+  background-color: white;
+  border-radius: 50px;
+  width: 65px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 1000px;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  height: 15px;
+  width: 27px;
+}
+
+.file-select-btn {
+  width: 100px;
+  background: transparent;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.upload-image-wrapper {
+  display: flex;
+  width: 1200px;
+}
+
+.button-section {
+  width: 300px;
+}
+.file-select-btn {
+  width: 200px;
+  height: 510px;
+  color: white;
+  font-size: 18px;
+}
+
+.images-container {
+  width: 1000px;
+  height: 529px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  max-height: 530px;
+  overflow: auto;
+  overflow-x: hidden;
+  border: solid 3px rgba(255, 255, 255, 0.3);
+}
+
+.image-item__btn-wrapper {
+  float: inline-end;
+}
+
+.emptyImage {
+  font-size: 40px;
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 220px;
+  color: rgba(255, 255, 255, 0.3);
+}

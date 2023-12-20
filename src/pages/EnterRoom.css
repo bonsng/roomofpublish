@@ -1,0 +1,58 @@
+.enter-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enterroom-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enter-h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.enter-p {
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1090px;
+  padding: 30px 30px;
+  height: 600px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.pwd-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.pwd-header {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.pwd-input {
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+}

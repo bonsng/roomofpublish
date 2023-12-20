@@ -1,0 +1,7 @@
+.room-navigation {
+  position: absolute;
+  z-index: 1;
+  padding: 15px 0;
+  background-color: transparent;
+  box-shadow: var(--box-shadow);
+}
